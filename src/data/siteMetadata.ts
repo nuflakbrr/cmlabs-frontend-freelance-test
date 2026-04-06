@@ -1,8 +1,8 @@
 export const siteMetadata = {
-  title: 'BikinProject | MealApp API Explorer by Naufal Akbar Nugroho',
+  title: 'MealApp | API Explorer by Naufal Akbar Nugroho',
   author: 'Naufal Akbar Nugroho',
-  headerTitle: 'BikinProject',
-  headerMobTitle: 'BP',
+  headerTitle: 'MealApp',
+  headerMobTitle: 'MA',
   description:
     'Temukan resep makanan lezat dari seluruh dunia menggunakan MealApp Explorer. Starter kit Next.js dengan fokus pada SEO, performa, dan pengalaman pengguna.',
   keywords: [
@@ -13,7 +13,7 @@ export const siteMetadata = {
     'Recipe App',
     'Resep Makanan',
     'Naufal Akbar Nugroho',
-    'BikinProject',
+    'MealApp',
   ],
   language: 'id-ID',
   theme: 'system', // system, dark or light
