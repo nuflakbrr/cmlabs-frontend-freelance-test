@@ -1,7 +1,27 @@
 'use server';
 import { apiCall } from '@/lib/apiHandler';
 import type { Response } from '@/interfaces';
-import type { Meal, MealCategory, MealIngredient, MealLookUp } from '@/interfaces/features/meal';
+import type {
+  Meal,
+  MealArea,
+  MealCategory,
+  MealIngredient,
+  MealLookUp,
+} from '@/interfaces/features/meal';
+
+/**
+ * Fetches alphabetical list of all meal regions.
+ */
+export async function getListOfAreas(): Promise<Response<MealArea[]>> {
+  return apiCall('/list.php?a=list', 'meals');
+}
+
+/**
+ * Filters meals that belong to a specific geographic region.
+ */
+export async function getFilterByArea(area: string): Promise<Response<Meal[]>> {
+  return apiCall(`/filter.php?a=${area}`, 'meals');
+}
 
 /**
  * Fetches a list of all available meal ingredients.

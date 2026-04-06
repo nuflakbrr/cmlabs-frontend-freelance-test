@@ -2,6 +2,7 @@
 import { type FC, useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import type { Route } from 'next';
 
 import { navlinks } from './constant/navLinks';
 import styles from './Navbar.module.css';
@@ -92,7 +93,7 @@ const Navbar: FC = () => {
                 {navlinks?.map((a, i) => (
                   <li className="group" key={i}>
                     <Link
-                      href={a.path}
+                      href={a.path as Route}
                       className="mx-4 font-semibold my-2 lg:my-0 flex text-sm text-[#5C6E8C]"
                     >
                       {a.title}

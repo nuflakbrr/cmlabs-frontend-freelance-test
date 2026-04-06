@@ -78,3 +78,7 @@ export interface MealCategory {
   strCategoryThumb: string;
   strCategoryDescription: string;
 }
+
+export interface MealArea {
+  strArea: string;
+}

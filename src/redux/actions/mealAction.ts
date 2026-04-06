@@ -1,8 +1,10 @@
 import createActionWithMeta from '@/redux/actions/createActionWithMeta';
 import {
   getDetailMeal,
-  getFilterByIngredient,
+  getFilterByArea,
   getFilterByCategory,
+  getFilterByIngredient,
+  getListOfAreas,
   getListOfCategories,
   getListOfIngredients,
 } from '@/services/mealService';
@@ -11,6 +13,34 @@ export const getFilterByCategoryAction = createActionWithMeta(
   'meal/getFilterByCategory',
   async (category: string, thunkAPI) => {
     const data = await getFilterByCategory(category);
+
+    if (data.errors !== null) {
+      return thunkAPI.rejectWithValue(data);
+    }
+
+    return data;
+  },
+  { conditionKey: 'isFetching', metaType: 'fetching' }
+);
+
+export const getListOfAreasAction = createActionWithMeta(
+  'meal/getListOfAreas',
+  async (_: void, thunkAPI) => {
+    const data = await getListOfAreas();
+
+    if (data.errors !== null) {
+      return thunkAPI.rejectWithValue(data);
+    }
+
+    return data;
+  },
+  { conditionKey: 'isFetching', metaType: 'fetching' }
+);
+
+export const getFilterByAreaAction = createActionWithMeta(
+  'meal/getFilterByArea',
+  async (area: string, thunkAPI) => {
+    const data = await getFilterByArea(area);
 
     if (data.errors !== null) {
       return thunkAPI.rejectWithValue(data);
