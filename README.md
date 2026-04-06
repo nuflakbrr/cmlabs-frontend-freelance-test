@@ -2,9 +2,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nuflakbrr/create-bikinproject-app/blob/main/assets/BikinProject.jpg?raw=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nuflakbrr/create-bikinproject-app/blob/main/assets/BikinProject.jpg?raw=true">
-    <img alt="Banner BikinProject" src="https://github.com/nuflakbrr/create-bikinproject-app/blob/main/assets/BikinProject.jpg?raw=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nuflakbrr/create-bikinproject-app/blob/v2/assets/BikinProject.jpg?raw=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/nuflakbrr/create-bikinproject-app/blob/v2/assets/BikinProject.jpg?raw=true">
+    <img alt="Banner BikinProject" src="https://github.com/nuflakbrr/create-bikinproject-app/blob/v2/assets/BikinProject.jpg?raw=true">
   </picture>
 </p>
 
