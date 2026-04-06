@@ -24,6 +24,12 @@ MealApp Explorer adalah aplikasi penjelajah resep makanan global yang dibangun d
 
 ---
 
+## 🌐 Live Demo
+
+Coba aplikasi secara langsung di: [**cmlabs-frontend-freelance-test.netlify.app**](https://cmlabs-frontend-freelance-test.netlify.app/)
+
+---
+
 ## 🚀 Fitur Utama (MealApp)
 
 - **SEO First Architecture**: Implementasi Next.js Server Components untuk metadata dinamis pada setiap halaman resep dan kategori.
