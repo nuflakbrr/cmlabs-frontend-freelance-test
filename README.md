@@ -8,6 +8,18 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="https://badge.fury.io/js/create-bikinproject-app.svg">
+    <img src="https://badge.fury.io/js/create-bikinproject-app.svg" alt="NPM Verion">
+  </a>
+  <a href="https://www.npmjs.com/package/create-bikinproject-app">
+    <img src="https://img.shields.io/npm/dt/create-bikinproject-app" alt="NPM Downloads">
+  </a>
+  <a href="https://www.npmjs.com/package/create-bikinproject-app">
+    <img src="https://img.shields.io/npm/l/create-bikinproject-app" alt="NPM License">
+  </a>
+</p>
+
 MealApp Explorer adalah aplikasi penjelajah resep makanan global yang dibangun dengan fokus pada **SEO**, **Performa**, dan **Interaktivitas**. Proyek ini menggunakan **TheMealDB API** untuk menyajikan data resep secara dinamis.
 
 ---
