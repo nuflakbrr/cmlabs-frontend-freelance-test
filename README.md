@@ -120,7 +120,17 @@ Struktur proyek ini dirancang untuk skalabilitas dan optimasi SEO. Berikut adala
 
 1. **Instal Dependensi**:
 ```bash
+# pnpm
 pnpm install
+
+# npm
+npm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
 2. **Konfigurasi Environment**:
@@ -131,13 +141,13 @@ NEXT_PUBLIC_BASE_API_URL="https://www.themealdb.com/api/json/v1/1"
 
 3. **Jalankan Development Server**:
 ```bash
-pnpm dev
+pnpm dev # atau npm run dev / yarn dev / bun dev
 ```
 
 4. **Build untuk Produksi**:
 ```bash
-pnpm build
-pnpm start
+pnpm build # atau npm run build / yarn build / bun build
+pnpm start # atau npm run start / yarn start / bun start
 ```
 
 ## 📝 Catatan SEO
